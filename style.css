@@ -39,3 +39,168 @@ main button.mouse{background: transparent; border:none; color:#fff; font-size: 2
     50%{opacity:0}
     100%{opacity:1}
 }
+
+
+section {
+    font-family: 'Poppins', sans-serif;
+    padding: 5rem 0;
+    display: block;
+}
+
+section .title {
+    margin-bottom: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+section .title h4 {
+    font-size: 1.35rem;
+    color: #ed4848;
+    position: relative;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+section .title h2 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+section.contact .contact-me .left .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+section.contact .contact-me .left .card .icon i {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.fa-location-crosshairs:before, .fa-location:before {
+    content: "\f601";
+}
+
+section.contact .contact-me .left {
+    width: 30%;
+    float: left;
+}
+
+section.contact .contact-me .right {
+    float: left;
+    width: 65%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+section.contact .contact-me .right .form-group {
+    margin-bottom: 1.25rem;
+}
+
+section.contact .contact-me .right .form-group label {
+    display: block;
+    margin-bottom: 0.85rem;
+}
+
+label {
+    cursor: default;
+}
+
+section.contact .contact-me .right .form-group input {
+    padding: 0.625rem;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+section.contact .contact-me .right .form-group textarea {
+    height: 300px;
+    width: 100%;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+section.contact .contact-me .right button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f78b00;
+    border: none;
+    color: white;
+}
+
+form {
+    display: block;
+}
+
+section.contact .contact-me::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
