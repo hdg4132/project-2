@@ -38,3 +38,16 @@ function deleteTxt(){
 }
 writeTxt()
 })();
+
+
+// 240401 header active 추가
+window.addEventListener('scroll', function(){
+    const header = document.querySelector('header');
+
+    if(this.window.scrollY>10){
+        header.classList.add('on')
+    }else{
+        header.classList.remove('on')
+    }
+})
+
