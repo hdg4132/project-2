@@ -309,6 +309,12 @@ section .title h4 {
 .Portfolio-item h3{
     font-size: 1.75rem;
 }
+
+.Portfolio::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 section .title h2 {
   font-size: 3.5rem;
 }
