@@ -213,3 +213,10 @@ section .do-me .do-inner .content p{
   section .do-me .do-inner:hover i{
     color:white;
   }
+
+  .bg {
+    background:url("images/background.jpg") center center;
+    background-size:cover;
+    background-attachment:fixed;
+    height:650px;
+}
