@@ -62,6 +62,38 @@ header nav ul li button {
   color: #fff;
 }
 
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  color: #fff;
+}
+header h1 button {
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  background: none;
+  color: #fff;
+}
+header nav {
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin-left: 15px;
+  color: #fff;
+}
+header nav ul li button {
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+  color: #fff;
+}
+
 /*************** main ****************/
 main {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
@@ -134,6 +166,7 @@ main button.mouse {
   }
 }
 @keyframes blink {
+
   0% {
     opacity: 1;
   }
@@ -153,11 +186,90 @@ main button.mouse {
   margin-bottom: 3rem;
 }
 
-.title h4 {
+section{
+    font-family: 'Poppins', sans-serif;
+    padding: 5rem 0;
+}
+
+section .title{
+    margin-bottom:3rem;
+}
+
+section .title h4{
+    font-size:1.35rem;
+    color:#ed4848;
+    position:relative;
+}
+
+section .title h2{
+    font-size:3.5rem; 
+}
+
+section .title p{
+    font-size:1.15rem;
+}
+
+section .about-self::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+section .about-self .left{
+    width: 50%;
+    float: left;
+}
+
+section .about-self .left img{
+    max-width: 100%;
+}
+
+section .about-self .right{
+    width:50%;
+    float:left;
+    padding:0 2rem;
+}
+
+section .about-self .right h3{
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+section .about-self .right h3 strong{
+    color:#ed4848;
+}
+
+section .about-self .right p{
+    font-size:1.15rem;
+    margin:1rem 0;
+}
+
+section .about-self .right .social a{
+    font-size:2.5rem;
+    margin-right:0.2rem;
+}
+/* genie 240401_header active 추가 */
+header.on{background: rgba(0,0,0,.7); position: fixed; top: 0;}
+
+
+section {
+  font-family: "Poppins", sans-serif;
+  padding: 5rem 0;
+}
+
+section:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+section .title {
+  margin-bottom: 3rem;
+}
+
+section .title h4 {
   font-size: 1.35rem;
   color: #ed4848;
   position: relative;
 }
+
 
 .title h2 {
   font-size: 3.5rem;
@@ -186,4 +298,61 @@ main button.mouse {
 
 .Portfolio-item h3{
     font-size: 1.75rem;
+}
+section .title h2 {
+  font-size: 3.5rem;
+}
+
+section .title p {
+  font-size: 1.15rem;
+}
+
+section .do-me::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section .do-me .do-inner {
+  background-color: #fff;
+  width: 30%;
+  padding: 2rem;
+  float: left;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+section .do-me .do-inner:last-child {
+  margin-right: 0;
+}
+
+section .do-me .do-inner .icon i {
+  font-size: 2.5rem;
+  color: #ff6a6a;
+}
+
+section .do-me .do-inner .content h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+section .do-me .do-inner .content p{
+    font-size:1.15rem;
+  }
+
+  section .do-me .do-inner:hover{
+    background-color:lightcoral;
+    color:white;
+  }
+
+  section .do-me .do-inner:hover i{
+    color:white;
+  }
+
+  .bg {
+    background:url("images/background.jpg") center center;
+    background-size:cover;
+    background-attachment:fixed;
+    height:650px;
+
 }
