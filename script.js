@@ -1,6 +1,6 @@
 (function (){
 const spanEl = document.querySelector('main h2 span'),
-     txtArr = ['Back-end Developer', 'Front-end Developer', 'Publisher', 'UI/UX Designer'];
+     txtArr = ['Back-end Developer', 'Front-end Developer', 'Web-Publisher', 'UI/UX Designer'];
 
 let index = 0;
 //txtArr 안에 들은 4문장중 하나 선택해서 한글자씩 쪼개기

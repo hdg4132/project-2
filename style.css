@@ -258,7 +258,7 @@ section .about-self .right .social a{
     margin-right:0.2rem;
 }
 /* genie 240401_header active 추가 */
-header.on{background: rgba(0,0,0,.7); position: fixed; top: 0;}
+header.on{background: rgb(0,0,0); position: fixed; top: 0;}
 
 
 section {
@@ -287,7 +287,7 @@ section .title h4 {
 
 .Portfolio .Portfolio-item {
   width: 30%;
-  margin-right: 3%;
+  margin-right: 5%;
   margin-bottom: 3rem;
   float: left;
   background-color: #f8f8f8;
@@ -308,6 +308,10 @@ section .title h4 {
 
 .Portfolio-item h3{
     font-size: 1.75rem;
+}
+
+.Portfolio-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .Portfolio::after{
